@@ -1,0 +1,9 @@
+web: sh setup.sh && streamlit run login.py
+web: sh setup.sh && streamlit run ClsBot.py
+web: sh setup.sh && streamlit run bd_datos.py
+web: sh setup.sh && streamlit run 01_🤖_Bot.py
+web: sh setup.sh && streamlit run admin.py
+web: sh setup.sh && streamlit run contra.py
+web: sh setup.sh && streamlit run bd_datos.cpython-310.py
+web: sh setup.sh && streamlit run ClsBot.cpython-310.py
+web: sh setup.sh && streamlit run login.cpython-310.py
