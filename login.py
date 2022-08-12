@@ -53,10 +53,10 @@ def main():
                     st.write("Tipo de cuenta: ",tipo_de_cuenta)
                     if tipo_de_cuenta == "Admin":
                         # Boton
-                        st.markdown('<a class="btn btn-outline-success" href="http://localhost:8501/admin" role="button" style="color:green">Administrar página</a>', unsafe_allow_html=True)    
+                        st.markdown('<a class="btn btn-outline-success" href="https://dyi-murri-cripto-login-w6ra2m.streamlitapp.com/admin" role="button" style="color:green">Administrar página</a>', unsafe_allow_html=True)    
                     else:   
                         # Boton
-                        st.markdown('<a class="btn btn-outline-success" href="http://localhost:8501/Bot" role="button" style="color:green">Ingresar a Bot</a>', unsafe_allow_html=True)    
+                        st.markdown('<a class="btn btn-outline-success" href="https://dyi-murri-cripto-login-w6ra2m.streamlitapp.com/Bot" role="button" style="color:green">Ingresar a Bot</a>', unsafe_allow_html=True)    
                 else:
                     st.error("Datos Incorrectos Usuario/Contraseña")
                     st.info("Si aún no se registra, en el menú tendrá una opción para ello.")
@@ -114,7 +114,7 @@ def main():
                     st.success("Datos registrados correctamente.")
                     st.info("Dirígete al menú e Inicia sesión.")
                     # st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">', unsafe_allow_html=True)
-                    # st.markdown('<a class="btn btn-outline-success" href="http://localhost:8501/main" role="button" style="color:green">Añadir datos a Bot</a>', unsafe_allow_html=True)
+                    # st.markdown('<a class="btn btn-outline-success" href="https://dyi-murri-cripto-login-w6ra2m.streamlitapp.com/Bot" role="button" style="color:green">Añadir datos a Bot</a>', unsafe_allow_html=True)
                     
   
 if __name__ == "__main__":
