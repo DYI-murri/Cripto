@@ -19,3 +19,4 @@ websockets==10.3
 yfinance==0.1.70
 pywhatkit
 websocket-client==1.3.3
+seaborn==0.11.2
